@@ -1,0 +1,47 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 190199382 Realtime: 529529391
+
+** MEMINFO in pid 9172 [uz.mirafzal.drop] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     3073     3040       16     2840    12800     8763     4036
+  Dalvik Heap      970      944        8       52     5755     3712     2043
+ Dalvik Other      721      708       12       20                           
+        Stack      128      128        0       56                           
+       Ashmem        4        4        0        0                           
+    Other dev        9        4        4        0                           
+     .so mmap     3602      144     1972      818                           
+    .apk mmap      170        0       12        0                           
+    .dex mmap      880      872        8     1216                           
+    .oat mmap     1628        0      480        0                           
+    .art mmap     1082      740       48      134                           
+   Other mmap        9        4        0        0                           
+      Unknown      148      148        0      191                           
+        TOTAL    12424     6736     2560     5327    18555    12475     6079
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1732
+         Native Heap:     3040
+                Code:     3488
+               Stack:      128
+            Graphics:        0
+       Private Other:      908
+              System:     8455
+ 
+               TOTAL:    12424       TOTAL SWAP PSS:     5327
+ 
+ Objects
+               Views:        5         ViewRootImpl:        0
+         AppContexts:        4           Activities:        1
+              Assets:        3        AssetManagers:        2
+       Local Binders:       13        Proxy Binders:       25
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

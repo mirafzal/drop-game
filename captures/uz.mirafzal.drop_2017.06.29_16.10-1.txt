@@ -1,0 +1,99 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        f5a683d uz.mirafzal.drop/.AndroidLauncher filter 16ae187
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Registered ContentProviders:
+  uz.mirafzal.drop/com.android.tools.fd.runtime.InstantRunContentProvider:
+    Provider{16f2832 uz.mirafzal.drop/com.android.tools.fd.runtime.InstantRunContentProvider}
+
+ContentProvider Authorities:
+  [uz.mirafzal.drop.com.android.tools.fd.runtime.InstantRunContentProvider]:
+    Provider{16f2832 uz.mirafzal.drop/com.android.tools.fd.runtime.InstantRunContentProvider}
+      applicationInfo=ApplicationInfo{33f8983 uz.mirafzal.drop}
+
+Key Set Manager:
+  [uz.mirafzal.drop]
+      Signing KeySets: 211
+
+Packages:
+  Package [uz.mirafzal.drop] (c45a700):
+    userId=10355
+    pkg=Package{c8a4b39 uz.mirafzal.drop}
+    codePath=/data/app/uz.mirafzal.drop-1
+    resourcePath=/data/app/uz.mirafzal.drop-1
+    legacyNativeLibraryDir=/data/app/uz.mirafzal.drop-1/lib
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    dexMode=unknown
+    versionCode=1 minSdk=9 targetSdk=26
+    versionName=1.0
+    splits=[base, lib_dependencies_apk, lib_slice_0_apk, lib_slice_1_apk, lib_slice_2_apk, lib_slice_3_apk, lib_slice_4_apk, lib_slice_5_apk, lib_slice_6_apk, lib_slice_7_apk, lib_slice_8_apk, lib_slice_9_apk]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{33f8983 uz.mirafzal.drop}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/uz.mirafzal.drop
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-06-29 16:07:32
+    firstInstallTime=2017-06-29 16:07:33
+    lastUpdateTime=2017-06-29 16:07:33
+    signatures=PackageSignatures{e3957e [71bd5697]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=147490 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
+mSkippingApks:
+  package : AxelSpringer.apk
+  package : imsservice.apk
+  package : ImsSettings.apk
+  package : ImsLogger+.apk
+  package : ImsTelephonyService.apk
+  package : RcsSettings.apk
+  package : Omc.apk
+
+
+Dexopt state:
+  [uz.mirafzal.drop]
+    Instruction Set: arm
+      path: /data/app/uz.mirafzal.drop-1/base.apk
+      status: /data/app/uz.mirafzal.drop-1/oat/arm/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Package sem_cleanAPKs log:
+22-Jun-2017 04:20 installd sem_cleanAPKs start
+22-Jun-2017 04:20 installd enforcedeletepackage path : /system/etc/enforcedeletepackage.txt
+22-Jun-2017 04:20 installd Failed to open file /system/etc/enforcedeletepackage.txt
+22-Jun-2017 04:20 installd sem_cleanAPKs end
+
+-------- coreapps list ---------
+com.google.android.ext.services:/system/priv-app/GoogleExtServices
+com.android.providers.telephony:/system/priv-app/SecTelephonyProvider_Epic
+com.google.android.ext.shared:/system/app/GoogleExtShared
+com.samsung.android.incallui:/system/priv-app/SamsungInCallUI
+org.simalliance.openmobileapi.service:/system/app/SmartcardService
+com.android.mms.service:/system/priv-app/MmsService
+com.samsung.ucs.agent.boot:/system/app/bootagent
+com.android.defcontainer:/system/priv-app/DefaultContainerService
+com.sec.sve:/system/app/sveservice
+com.samsung.android.SettingsReceiver:/system/priv-app/SettingsReceiver
+android:/system/framework/framework-res.apk
+com.android.providers.settings:/system/priv-app/SecSettingsProvider2
+com.android.inputdevices:/system/priv-app/InputDevices
+com.samsung.knox.securefolder:/system/priv-app/SecureFolderStub
+com.sec.android.inputmethod:/system/app/SamsungIMEv5
+com.android.server.telecom:/system/priv-app/Telecom
+com.google.android.packageinstaller:/system/priv-app/GooglePackageInstaller
+com.android.proxyhandler:/system/priv-app/ProxyHandler
+com.sec.phone:/system/app/SecFactoryPhoneTest
+com.sec.app.RilErrorNotifier:/system/priv-app/PhoneErrService
+com.android.settings:/system/priv-app/SecSettings2
+com.android.phone:/system/priv-app/TeleService
+com.android.shell:/system/priv-app/Shell
+com.android.location.fused:/system/priv-app/FusedLocation
+com.sec.epdg:/system/app/EpdgService
+com.android.systemui:/system/priv-app/SystemUI
+com.sec.knox.switcher:/system/app/KnoxSwitcher
